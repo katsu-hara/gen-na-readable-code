@@ -4,6 +4,7 @@ public class Exec {
 		if (args.length == 0) {
 			System.out.println("上手");
 		}
-		new DictionaryReader().out();
+		// 第一引数はデータファイルのフルパス
+		new DictionaryReader(args[0]).out();
 	}
 }
