@@ -6,4 +6,6 @@ public class Exec {
 			System.out.println("上手");
 		}
 	}
+	
+	// TODO Propertyファイルから辞書を読み取る
 }
